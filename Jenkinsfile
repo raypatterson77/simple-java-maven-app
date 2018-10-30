@@ -9,7 +9,7 @@ pipeline {
 		stage('Build')
 			steps {
 				sh 'mvn -B -DksipTests clean package'
-			}
 		}
-	}	
-}
+	}
+}	
+
